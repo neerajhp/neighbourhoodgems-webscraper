@@ -2,6 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import siteScripts.timeout.urls as urls
 from models.landmark import Landmark
+import logging
+
+# Get logger
+logger = logging.getLogger(__name__)
 
 # Get All
 # Restaurants
@@ -27,9 +31,9 @@ def getBestRestaurantsNames():
         text = article.text
         restaurantNames.append(text.split()[1:])
 
-    return restaurantNames
+    logger.info("Number of articles gathered %d" % len(restaurantNames))
 
-    print("Number of articles gathered %d" % len(restaurantNames))
+    return restaurantNames
 
 
 def getRestaurantArticle():
