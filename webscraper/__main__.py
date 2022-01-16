@@ -1,9 +1,21 @@
+from webbrowser import Chrome
 import siteScripts.timeout.scraper as timeoutScraper
 import logging
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+
+def setupWebDriver():
+    chromeOptions = Options()
+    # chromeOptions.add_argument("--headless")
+
+    return webdriver.Chrome(options=chromeOptions)
 
 
 def main():
-    timeoutScraper.scrape()
+    driver = setupWebDriver()
+    timeoutScraper.scrape(driver)
+    driver.quit()
 
 
 if __name__ == '__main__':

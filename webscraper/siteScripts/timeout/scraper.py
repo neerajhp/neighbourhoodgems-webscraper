@@ -1,30 +1,27 @@
-
-import requests
 import logging
+from pdb import Restart
 import re
 from typing import Dict, List
+from unittest.mock import NonCallableMagicMock
 from bs4 import BeautifulSoup
 import siteScripts.timeout.urls as urls
 import siteScripts.settings.timeout as settings
 from models.landmark import Landmark
-from webscraper.siteScripts.timeout.urls import TIMEOUT_MELB_RESTAURANTS
+from webscraper.siteScripts.timeout.urls import TIMEOUT_MELB_BEST_RESTAURANTS_LIST, TIMEOUT_MELB_RESTAURANTS
 
 # LOGGER
 logger = logging.getLogger(__name__)
 
 
-def getBestRestaurants():
+def getBestRestaurants(driver):
     """Scrapes Timeout article 'The Best Restaurants in Melbourne' and returns array of first 50 restaurant names and the urls to articles for restaurants."""
 
     restaurantURLS = []
 
-    # Go to URL
-    page = requests.get(urls.TIMEOUT_MELB_BEST_RESTAURANTS_LIST)
-    # Pass to Parser
-    soup = BeautifulSoup(page.content, "html.parser")
+    html = getPageHTML(driver, TIMEOUT_MELB_BEST_RESTAURANTS_LIST)
 
     # Get list of article titles
-    articleContainer = soup.find_all("div", class_="_zoneFirst_abr0c_5")[0]
+    articleContainer = html.find_all("div", class_="_zoneFirst_abr0c_5")[0]
     articleTitles = articleContainer.find_all("h3")
 
     # Strip titles of ranking and split name by whitespace
@@ -43,14 +40,16 @@ def getBestRestaurants():
     return restaurantURLS
 
 
-def articleToLandmark(restaurant: Dict[str, str]):
+def articleToLandmark(driver, restaurant: Dict[str, str]):
     """Takes a restaurant url and returns timeout article contents"""
 
     # TODO Refactor out
-    html = getPageHTML(restaurant["url"])
+    html = getPageHTML(driver, restaurant["url"])
 
     # Get Article from page
     article = html.find("article", class_="listing")
+    if article == None:
+        return None
 
     # Get Location
     location = article.find("span", class_="flag--location")
@@ -61,31 +60,39 @@ def articleToLandmark(restaurant: Dict[str, str]):
 
     #  Get Images
     images = []
-    imageTags = article.find_all("img")
-    for img in imageTags:
+    imageHTMLTags = article.find_all("img")
+    for img in imageHTMLTags:
         images.append(img.get("data-srcset"))
 
     # Get Rating
-    rating = article.find("meta", itemprop="ratingValue")
-    if rating == None:
-        rating = "Could not get rating from article"
+    articleRating = article.find("meta", itemprop="ratingValue")
+    if articleRating == None:
+        landmarkRating = "Could not get rating from article"
+    else:
+        landmarkRating = articleRating.get("content")
 
     # Get Description
-    description = article.find("div", itemprop="reviewBody").text
-    if description == None:
-        description = "Could not get description from article"
+    articleDescription = article.find("div", itemprop="reviewBody")
+    if articleDescription == None:
+        landmarkDescription = "Could not get description from article"
+    else:
+        landmarkDescription = articleDescription.text
 
     # Get Tags
-    tags = [article.find("span", class_="flag--primary_category").text,
-            article.find("span", class_="flag--sub_category").text]
+    landmarkTags = []
+    articleTags = [article.find("span", class_="flag--primary_category"),
+                   article.find("span", class_="flag--sub_category")]
+    for tag in articleTags:
+        if tag != None:
+            landmarkTags.append(tag.text)
 
-    return Landmark("Restaurant", {'lat': 0.0, 'lng': 0.0}, location, restaurant["name"], rating, images, description, tags, {"outlet": "Timeout", "url": restaurant["url"]})
+    return Landmark("Restaurant", {'lat': 0.0, 'lng': 0.0}, location, restaurant["name"], landmarkRating, images, landmarkDescription, landmarkTags, {"outlet": "Timeout", "url": restaurant["url"]})
 
 
-def getPageHTML(url: str):
+def getPageHTML(driver, url):
     """Gets html content from page and return through BS4 parser"""
-    page = requests.get(url)
-    return BeautifulSoup(page.content, "html.parser")
+    driver.get(url)
+    return BeautifulSoup(driver.page_source, "html.parser")
 
 
 def getCoords():
@@ -102,15 +109,18 @@ def getURLFromName(base: str, name: List[str]):
 # Events/Things-to-do
 
 
-def scrape():
+def scrape(driver):
 
     landmarks = []
 
     if(settings.articles['BEST_RESTAURANTS']):
-        restaurants = getBestRestaurants()
+        restaurants = getBestRestaurants(driver)
 
         for restaurant in restaurants:
             # get landmark from article
-            restaurantLandmark = articleToLandmark(restaurant)
-            restaurantLandmark.printLandmark()
-            landmarks.append(restaurantLandmark)
+            restaurantLandmark = articleToLandmark(driver, restaurant)
+            if restaurantLandmark == None:
+                pass
+            else:
+                restaurantLandmark.printLandmark()
+                landmarks.append(restaurantLandmark)

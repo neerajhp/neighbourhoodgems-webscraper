@@ -1,0 +1,348 @@
+2022-01-13 16:12:53,860 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-13 16:12:55,061 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-13 16:51:24,616 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-13 16:51:32,610 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-13 16:51:57,866 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-13 16:53:01,077 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-13 16:53:11,067 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-13 17:01:11,724 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-13 17:01:12,524 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-13 17:01:41,604 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-13 17:07:48,435 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-13 17:07:49,160 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-13 17:07:52,544 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:17:57,122 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:17:57,481 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:17:58,119 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:18:13,082 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:18:13,416 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:18:13,996 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:19:35,602 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:19:35,943 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:19:36,548 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:20:41,640 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:20:41,961 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:20:42,535 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:21:13,519 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:21:13,843 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:21:14,432 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:21:37,318 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:21:37,647 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:21:38,240 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:21:56,361 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:21:56,690 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:21:57,316 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:22:47,837 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:22:48,173 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:22:48,728 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:23:20,363 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:23:20,688 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:23:21,259 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:24:51,081 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:24:51,469 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:24:52,116 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:24:55,020 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:24:55,384 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:24:55,914 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:25:07,094 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:25:07,462 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:25:08,002 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:25:33,542 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:25:33,890 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:25:34,475 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:26:44,639 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:26:45,311 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:26:46,264 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:26:55,991 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:26:56,399 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:27:00,097 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:27:11,860 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:27:12,479 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:27:13,078 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:27:26,899 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:27:27,803 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:27:28,467 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:27:34,186 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:27:34,627 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:27:35,297 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:28:47,017 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:28:48,002 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:28:48,669 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:29:06,342 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:29:06,712 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:29:07,318 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:29:40,426 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:29:40,793 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:29:41,379 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:31:38,787 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:31:39,513 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:31:40,469 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:31:51,822 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:31:52,232 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:31:52,753 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:32:04,201 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:32:04,564 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:32:05,205 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:34:58,291 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:34:58,891 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:35:03,322 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:38:09,381 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:38:10,554 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:38:11,192 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:38:28,251 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:38:29,019 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:38:29,670 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:38:37,336 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:38:37,737 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:38:38,291 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:49:48,005 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:49:48,732 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:49:49,331 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:50:02,621 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:50:02,967 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:50:03,459 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:50:32,960 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:50:33,293 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:50:33,872 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:52:43,831 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:52:44,214 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:52:44,959 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:53:10,873 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:53:11,196 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:53:11,927 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:54:01,604 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:54:01,956 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:54:02,655 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:54:43,393 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:54:43,774 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:54:44,565 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:57:00,200 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:57:00,855 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:57:01,412 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:57:23,506 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:57:23,853 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:57:24,417 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 11:57:47,808 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 11:57:48,147 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 11:57:48,754 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:52:57,531 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:52:58,235 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:52:58,791 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:53:02,346 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:53:02,712 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:53:03,255 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:53:40,816 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:53:41,157 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:53:41,959 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:55:41,686 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:55:42,068 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:55:42,685 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:56:04,827 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:56:05,182 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:56:05,771 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:56:08,034 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:56:08,565 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:56:09,112 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:57:09,508 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:57:09,864 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:57:10,465 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:57:12,498 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:57:12,995 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:57:13,549 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:57:26,924 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:57:27,277 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:57:27,817 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:58:01,935 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:58:02,301 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:58:02,831 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:58:38,456 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:58:38,830 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:58:39,515 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:58:55,712 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:58:56,077 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:58:56,778 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:59:00,162 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:59:00,536 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:59:01,050 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 12:59:13,863 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 12:59:14,223 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 12:59:14,776 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:00:29,140 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:00:29,494 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:00:30,164 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:00:47,663 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:00:48,016 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:00:48,593 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:52:57,641 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:52:58,284 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:52:58,908 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:55:42,454 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:55:43,194 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:55:43,790 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:55:47,141 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:55:47,507 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:55:48,065 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:56:03,835 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:56:04,182 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:56:04,689 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:56:31,241 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:56:31,603 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:56:32,162 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:56:34,991 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:56:35,373 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:56:35,948 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 13:56:58,703 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 13:56:59,076 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 13:56:59,614 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:18:04,370 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:18:05,025 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:18:06,887 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:28:19,616 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:28:20,240 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:28:20,861 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:28:26,969 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:28:27,318 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:28:27,903 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:28:36,845 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:28:37,172 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:28:37,660 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:28:40,631 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:28:40,956 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:28:41,504 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:29:07,442 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:29:07,775 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:29:08,324 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:30:33,325 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:30:33,657 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:30:34,193 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:35:39,956 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:35:40,300 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:35:40,854 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:36:38,683 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:36:39,272 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:36:39,761 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:36:43,100 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:36:43,454 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:36:44,069 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:37:05,589 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:37:05,916 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:37:06,410 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:37:36,268 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:37:36,909 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:37:37,424 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:39:20,733 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:39:21,093 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:39:21,711 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:39:23,863 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:39:24,195 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:39:24,775 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:39:27,162 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:39:27,512 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:39:27,977 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:39:41,383 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:39:41,717 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:39:42,263 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:40:20,504 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:40:21,069 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:40:21,613 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:40:55,695 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:40:56,028 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:40:56,549 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:45:18,019 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:45:18,429 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:45:20,605 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:47:16,970 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:47:17,305 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:47:17,897 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:47:44,844 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:47:45,476 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:47:46,015 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:47:51,857 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:47:52,204 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:47:52,710 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 14:49:05,473 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 14:49:06,103 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 14:49:06,717 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:08:46,263 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:08:46,983 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:08:47,603 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:08:50,907 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:08:51,268 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:08:53,878 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:09:18,438 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:09:18,805 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:09:19,453 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:09:50,795 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:09:51,136 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:09:51,694 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:10:47,159 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:10:48,064 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:10:48,708 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:11:50,774 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:11:51,191 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:11:51,805 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:12:09,378 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:12:09,736 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:12:10,346 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:13:06,840 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:13:07,193 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:13:07,759 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:13:59,494 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:13:59,848 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:14:00,690 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:16:01,642 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:16:01,989 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:16:02,616 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:17:12,374 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:17:12,711 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:17:14,444 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:21:01,091 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:21:01,445 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:21:02,156 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 50
+2022-01-14 16:31:51,978 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:31:52,161 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 16:42:52,406 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 16:42:52,581 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:08:59,702 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:08:59,868 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:09:52,338 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:09:52,498 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:11:34,424 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:11:34,579 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:11:46,866 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:11:47,029 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:14:36,695 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:14:36,857 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:18:56,584 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:18:56,753 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:19:11,011 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:19:11,169 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-14 17:20:19,528 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-14 17:20:19,698 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:03:32,024 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:03:32,553 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:04:53,113 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:04:53,273 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:06:35,314 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:06:35,512 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:07:52,719 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 51
+2022-01-16 13:21:49,877 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:21:50,085 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:22:10,857 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 51
+2022-01-16 13:23:21,412 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:23:21,613 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:24:01,647 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 51
+2022-01-16 13:24:24,976 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:24:25,238 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:25:04,440 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 51
+2022-01-16 13:38:04,555 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:38:04,737 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:38:12,703 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 51
+2022-01-16 13:39:34,116 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 13:39:34,355 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 13:40:00,843 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 51
+2022-01-16 15:45:03,809 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 15:45:04,109 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 15:48:07,907 ::  siteScripts.timeout            :: INFO     :: Module siteScripts.timeout initialised
+2022-01-16 15:48:08,108 ::  webscraper.siteScripts.timeout :: INFO     :: Module webscraper.siteScripts.timeout initialised
+2022-01-16 15:48:59,373 ::  siteScripts.timeout.scraper    :: INFO     :: Number of articles gathered 51
