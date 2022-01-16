@@ -1,21 +1,20 @@
-from webbrowser import Chrome
+
 import siteScripts.timeout.scraper as timeoutScraper
 import logging
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from webscraper.models.landmark import Landmark
 
-
-def setupWebDriver():
-    chromeOptions = Options()
-    # chromeOptions.add_argument("--headless")
-
-    return webdriver.Chrome(options=chromeOptions)
+from webscraper.services.csv import saveLandmarksCSV
 
 
 def main():
-    driver = setupWebDriver()
-    timeoutScraper.scrape(driver)
-    driver.quit()
+    # File to save landmarks
+    f = "landmarks.csv"
+
+    # Scrapers
+    timeOutLandmarks = timeoutScraper.scrape()
+
+    # Save Data
+    saveLandmarksCSV(timeOutLandmarks, f)
 
 
 if __name__ == '__main__':

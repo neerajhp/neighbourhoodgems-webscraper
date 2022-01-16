@@ -3,6 +3,20 @@ from typing import Dict, List
 
 
 class Landmark:
+    # TODO Complete Docstring
+    """"Represents Map Landmark 
+
+    Attributes: 
+        type:
+        coords:
+        location:
+        name:
+        rating:
+        images:
+        description:
+        tags:
+        source:
+    """
 
     def __init__(self, type: str, coords: Dict[float, float], location: str, name: str, rating: int, images, description: str, tags: List[str], source: Dict[str, str]):
         self.type = type

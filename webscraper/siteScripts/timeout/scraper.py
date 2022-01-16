@@ -1,12 +1,11 @@
 import logging
-from pdb import Restart
 import re
 from typing import Dict, List
-from unittest.mock import NonCallableMagicMock
 from bs4 import BeautifulSoup
 import siteScripts.timeout.urls as urls
 import siteScripts.settings.timeout as settings
 from models.landmark import Landmark
+from webscraper.services.webDriver import setupWebDriver
 from webscraper.siteScripts.timeout.urls import TIMEOUT_MELB_BEST_RESTAURANTS_LIST, TIMEOUT_MELB_RESTAURANTS
 
 # LOGGER
@@ -109,7 +108,10 @@ def getURLFromName(base: str, name: List[str]):
 # Events/Things-to-do
 
 
-def scrape(driver):
+def scrape():
+
+    # Selenium Web Driver
+    driver = setupWebDriver()
 
     landmarks = []
 
@@ -124,3 +126,7 @@ def scrape(driver):
             else:
                 restaurantLandmark.printLandmark()
                 landmarks.append(restaurantLandmark)
+
+    driver.quit()
+
+    return landmarks
