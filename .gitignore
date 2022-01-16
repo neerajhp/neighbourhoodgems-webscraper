@@ -1,5 +1,6 @@
-*.env
-*.log
+.venv/*
 .vscode
-.venv/
-__pycache__/
+.log
+.env
+__pycache__
+*.csv
