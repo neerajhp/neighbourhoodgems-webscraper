@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import siteScripts.timeout.urls as urls
 import siteScripts.settings.timeout as settings
 from models.landmark import Landmark
-from webscraper.services.webDriver import setupWebDriver
+from webscraper.utils.webDriver import setupWebDriver
 from webscraper.siteScripts.timeout.urls import TIMEOUT_MELB_BEST_RESTAURANTS_LIST, TIMEOUT_MELB_RESTAURANTS
 
 # LOGGER
@@ -46,16 +46,29 @@ def articleToLandmark(driver, restaurant: Dict[str, str]):
     html = getPageHTML(driver, restaurant["url"])
 
     # Get Article from page
-    article = html.find("article", class_="listing")
+    article = html.find("div", id="main-container")
     if article == None:
         return None
 
+    # Get tags section (contains location and type)
+    tags = article.find("ul", class_="_tagsList_163gl_5")
+    if tags == None:
+        return None
+
     # Get Location
-    location = article.find("span", class_="flag--location")
+    location = tags.contents[1]
     if location == None:
         location = "Could not get location from article"
     else:
-        location = re.sub("\n+\s{2,}", "", location.text.strip())
+        location = re.sub("\n+\s{2,}", "", location.contents[0].text.strip())
+
+    # Get type
+    type = tags.contents[0]
+    if type == None:
+        type = "Could not get type from article"
+    else:
+        type = re.sub("\n+\s{2,}", "", type.contents[0].text.strip())
+
 
     #  Get Images
     images = []
@@ -71,21 +84,14 @@ def articleToLandmark(driver, restaurant: Dict[str, str]):
         landmarkRating = articleRating.get("content")
 
     # Get Description
-    articleDescription = article.find("div", itemprop="reviewBody")
+    articleDescription = article.find("div", class_="_content_16y43_1")
     if articleDescription == None:
         landmarkDescription = "Could not get description from article"
     else:
         landmarkDescription = articleDescription.text
 
-    # Get Tags
-    landmarkTags = []
-    articleTags = [article.find("span", class_="flag--primary_category"),
-                   article.find("span", class_="flag--sub_category")]
-    for tag in articleTags:
-        if tag != None:
-            landmarkTags.append(tag.text)
-
-    return Landmark("Restaurant", {'lat': 0.0, 'lng': 0.0}, location, restaurant["name"], landmarkRating, images, landmarkDescription, landmarkTags, {"outlet": "Timeout", "url": restaurant["url"]})
+   
+    return Landmark("Restaurant", {'lat': 0.0, 'lng': 0.0}, location, restaurant["name"], landmarkRating, images, landmarkDescription, type, {"outlet": "Timeout", "url": restaurant["url"]})
 
 
 def getPageHTML(driver, url):

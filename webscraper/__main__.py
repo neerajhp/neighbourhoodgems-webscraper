@@ -1,9 +1,9 @@
 
 import siteScripts.timeout.scraper as timeoutScraper
 import logging
-from webscraper.models.landmark import Landmark
+from decouple import config
 
-from webscraper.services.csv import saveLandmarksCSV
+from webscraper.utils.csv import saveLandmarksCSV
 
 
 def main():
@@ -16,11 +16,19 @@ def main():
     # Save Data
     saveLandmarksCSV(timeOutLandmarks, f)
 
+    #Loop through entries in CSV
+    #Insert entry into db
+
 
 if __name__ == '__main__':
-    logging.config.fileConfig(fname="./logs/logging.conf",
+    
+    # Configure logging
+    logging.config.fileConfig(fname=config('LOGGING_CONFIG'),
                               disable_existing_loggers=False)
     logger = logging.getLogger(__name__)
-    logger.info("Let's Begin")
 
+    # Connect to DB
+
+    # Start
+    logger.info("Let's Begin")
     main()

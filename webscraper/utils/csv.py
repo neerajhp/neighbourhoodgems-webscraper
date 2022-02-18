@@ -18,7 +18,7 @@ def checkFile(filename: str):
     # if desired file doesn't exist, create it with the write ('w') or
     # append 'a' mode
     except:
-        with open('example.csv', 'a', newline='') as csvfile:
+        with open(filename, 'a', newline='') as csvfile:
             logger.info("%s file created" % filename)
 
 
